@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sia.knights.KnightXMLInjectionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-05-08T16:32:51" hostname="asimov404" time="0.633">
+  <properties/>
+  <testcase name="shouldInjectKnightWithSlayDragonQuest" classname="sia.knights.KnightXMLInjectionTest" time="0.633"/>
+  <system-out><![CDATA[11:32:51,791  INFO st.context.support.AbstractContextLoader: 208 - Detected default resource location "classpath:/sia/knights/KnightXMLInjectionTest-context.xml" for test class [sia.knights.KnightXMLInjectionTest]
+11:32:51,791  INFO ort.AbstractDelegatingSmartContextLoader: 171 - GenericXmlContextLoader detected default locations for context configuration [ContextConfigurationAttributes@3ffaef0a declaringClass = 'sia.knights.KnightXMLInjectionTest', classes = '{}', locations = '{classpath:/sia/knights/KnightXMLInjectionTest-context.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+11:32:51,793  INFO pport.AnnotationConfigContextLoaderUtils:  80 - Could not detect default configuration classes for test class [sia.knights.KnightXMLInjectionTest]: KnightXMLInjectionTest does not declare any static, non-private, non-final, inner classes annotated with @Configuration.
+11:32:51,795  INFO ramework.test.context.TestContextManager: 242 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+11:32:51,796  INFO ramework.test.context.TestContextManager: 242 - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+11:32:51,808  INFO eans.factory.xml.XmlBeanDefinitionReader: 316 - Loading XML bean definitions from class path resource [sia/knights/KnightXMLInjectionTest-context.xml]
+11:32:52,099  INFO ontext.support.GenericApplicationContext: 515 - Refreshing org.springframework.context.support.GenericApplicationContext@332b6f2a: startup date [Sun May 08 11:32:52 COT 2016]; root of context hierarchy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
